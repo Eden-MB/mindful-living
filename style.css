@@ -83,6 +83,7 @@ main {
 .body2 {
   background-color: #b4cecf36;
   margin-top: 100px;
+  text-align: center;
 }
 .body2 h2 {
   font-size: 60px;
@@ -100,9 +101,9 @@ main {
 }
 .grid {
   display: grid;
+  margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1100px;
-  margin-left: 100px;
   padding-bottom: 50px;
 }
 .card {
