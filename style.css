@@ -153,11 +153,13 @@ iframe {
 }
 .reviews {
   display: grid;
+  margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   padding: 50px 70px 100px 100px;
   color: rgb(83, 80, 80);
   font-weight: normal;
+  max-width: 1100px;
 }
 .reviews h5 {
   margin: 0px;
